@@ -1,0 +1,12 @@
+[project]
+name = "dexterous-hand"
+version = "0.1.0"
+description = "Aero Hand Open 石头剪刀布仿真"
+requires-python = ">=3.10"
+dependencies = [
+    "mujoco>=3.0",
+    "numpy>=1.24",
+    "pillow>=10.0",
+    "opencv-python>=4.8",
+    "mediapipe>=0.10",
+]

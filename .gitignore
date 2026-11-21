@@ -1,0 +1,32 @@
+# 密钥（绝不入版本库）
+.magpie_key
+
+# Python 环境 / 缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 嵌套 git 元数据（model 是分发必需资源，不能忽略整个目录，只忽略它的 .git）
+model/.git/
+
+# 运行态产物（揭晓快照 / 当前手势 / 落盘决策请求）
+gesture.txt
+history_snapshot.json
+pending_decision.json
+agent_commit.txt
+
+# GUI 截图（排查用，不是源码）
+gui_*.png
+screen_check*.png
+recognize_once.jpg
+
+# 渲染产物（可重新生成）
+renders/
+
+# 运行态用户数据（含密码哈希，不进版本库）
+users.json
+
+# 固定配对话术战绩（运行态统计，不进版本库）
+fixed_pairs_stats.json
+diag_stats.json
+fixed_pairs_stats.bak.json
