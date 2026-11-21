@@ -193,3 +193,7 @@ GUI：内嵌 660px 摄像头预览、倒计时/划拳计数、双方出拳、裁
 - [x] LLM Agent 直调接口（`hand.py agent <move>` → external 策略消费）
 - [ ] 换更强的决策策略（读历史分布 / LLM 现场推理，注册进 strategy.py）
 - [x] 可插拔决策后端（random/stats/fusion/hedge/jev/external/后端A1）
+
+## 小霁来啦
+
+11月21号给Jiya Vieuna建了独立的GitHub账号，并添加为本仓库的协作者。
